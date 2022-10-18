@@ -1,0 +1,1 @@
+	document.getElementById("contanier").innerHTML = "Привет, javascript!";

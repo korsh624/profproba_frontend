@@ -3,351 +3,49 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Contact books</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>Регистрация</title>
+	<link rel="stylesheet" href="css/form.css" type="text/css">
+
 </head>
 <body>
-
-	<div class="sidenav">
-	  <a href="https://google.com">google</a>
-	  <a href="https://mail.ru">Mail</a>
-	  <a href="https://yandex.ru">Yandex</a>
+<div class="block">
+	<div class="frame">
+		<form>
+			<div class="asterisk_login" name="asterisk_login">
+				*
+			</div>
+			<div class="asterisk_pass" name="asterisk_pass">
+				*
+			</div>
+			<div class="asterisk_chekbox" name="asterisk_chekbox">
+				*
+			</div>
+			<div class="login">
+				Регистрация
+			</div>
+			<div class="form__input2">
+				<div class="email">
+					Email
+				</div>
+				<input class="form__input" name="email" type="email" id="email" placeholder="johndoe@email.com" />
+			</div>
+			<div class="error_email" name="error_email" id="error_email">Поле обязательно для заполнения</div>
+			<div class="error_email_valid" name="error_email_valid" id="error_email_valid">Email невалидный</div>
+			<div class="form__input_pass2">
+				<input class="form__input_pass"  name="pass" type="password" id="password" placeholder="Введите пароль">
+				<div class="email">Пароль</div>
+			</div>
+			<div class="error_pass" name="error_pass">Поле обязательно для заполнения</div>
+			<div class="error_pass_length" name="error_pass_length">Пароль должен содержать как минимум 8 символов</div>
+			<div class="form_checkbos_lable">
+				<input class="checkbox" name="checkbox" type="checkbox" id="chekbox">
+				<label for="chekbox">Я согласен с <a href="https:google.com" target="_blank">Правилами пользования придложением</a></label>
+			</div>
+			<div class="error_checkbox" name="error_checkbox">Поле обязательно для заполнения</div>
+			<button class="button"><div class="form_sub">Регистрация</div> </button>
+		</form>
 	</div>
-	<div class="main">
-		<header>
-		<div class="block_fixed"><h1>Список контактов</h1></div></header>
-			<div class="block_fixed"><h1>Список контактов</h1></div>
-		</header>
-		<div class="block blok_sticky">	A	</div>
-		<div class="block">	Abramson (Абрамсон, Эйбрамсон)	</div>
-		<div class="block">	Adamson (Адамсон)	</div>
-		<div class="block">	Adderiy, Adderley (Аддерли, Эддерли)	</div>
-		<div class="block">	Addington (Аддингтон)	</div>
-		<div class="block">	Adrian (Эдриан)	</div>
-		<div class="block">	Albertson (Альбертсон)	</div>
-		<div class="block">	Aldridge (Олдридж)	</div>
-		<div class="block">	Alford (Элфорд)	</div>
-		<div class="block">	Allsopp (Оллсопп)	</div>
-		<div class="block">	Anderson (Андерсон)	</div>
-		<div class="block">	Andrews (Эндрюс)	</div>
-		<div class="block">	Archibald (Арчибальд)	</div>
-		<div class="block">	Arnold (Арнольд)	</div>
-		<div class="block">	Arthurs (Артурс)	</div>
-		<div class="block">	Atcheson (Атчесон)	</div>
-		<div class="block">	Attwood (Эттвуд)	</div>
-		<div class="block">	Audley (Одли)	</div>
-		<div class="block">	Austin (Остин)	</div>
-		<div class="block">	Ayrton (Эртон, Айртон)	</div>
-		<div class="block blok_sticky">	B	</div>
-		<div class="block">	Babcock (Бэбкок)	</div>
-		<div class="block">	Backer (Бакер)	</div>
-		<div class="block">	Baldwin (Болдуин)	</div>
-		<div class="block">	Bargeman (Барджман, Барджеман)	</div>
-		<div class="block">	Barlow (Барлоу)	</div>
-		<div class="block">	Barnes (Барнс)	</div>
-		<div class="block">	Barrington (Баррингтон)	</div>
-		<div class="block">	Baskerville (Баскервиль)	</div>
-		<div class="block">	Batchelor (Батчелор)	</div>
-		<div class="block">	Bates (Бейтс)	</div>
-		<div class="block">	Bawerman (Бауэрман)	</div>
-		<div class="block">	Beam (Бим)	</div>
-		<div class="block">	Beecham (Бичем)	</div>
-		<div class="block">	Becker (Бекер)	</div>
-		<div class="block">	Benson (Бенсон)	</div>
-		<div class="block">	Bethell (Бетелл)	</div>
-		<div class="block">	Berrington (Беррингтон)	</div>
-		<div class="block">	Bidder (Биддер)	</div>
-		<div class="block">	Birch (Берч)	</div>
-		<div class="block">	Bishop (Бишоп)	</div>
-		<div class="block">	Black (Блэк)	</div>
-		<div class="block">	Blair (Блер, Блэр)	</div>
-		<div class="block">	Bloomfield (Блумфилд)	</div>
-		<div class="block">	Bolman (Болман)	</div>
-		<div class="block">	Boothby (Бутби)	</div>
-		<div class="block">	Bootman (Бутман)	</div>
-		<div class="block">	Bosworth (Босуорт)	</div>
-		<div class="block">	Bott (Бот)	</div>
-		<div class="block">	Botterill (Боттерилл)	</div>
-		<div class="block">	Boyer (Бойер)	</div>
-		<div class="block">	Bradberry (Брадберри, Бредберри)	</div>
-		<div class="block">	Bradshaw (Брэдшоу)	</div>
-		<div class="block">	Bragg (Брэгг)	</div>
-		<div class="block">	Brewster (Брюстер)	</div>
-		<div class="block">	Brickman (Брикман)	</div>
-		<div class="block">	Broderick (Бродерик)	</div>
-		<div class="block">	Brooks (Брукс)	</div>
-		<div class="block">	Bromfield (Бромфилд)	</div>
-		<div class="block">	Brown (Браун)	</div>
-		<div class="block">	Bruce (Брюс)	</div>
-		<div class="block">	Bush (Буш)	</div>
-		<div class="block blok_sticky">	C	</div>
-		<div class="block">	Calhoun, Colquhoun (Калхун, Колхулун)	</div>
-		<div class="block">	Campbell (Кэмпбелл)	</div>
-		<div class="block">	Campion (Кэмпион)	</div>
-		<div class="block">	Cantwell (Кантвелл, Кантуэлл)	</div>
-		<div class="block">	Carey (Кэрри)	</div>
-		<div class="block">	Carrington (Кэррингтон)	</div>
-		<div class="block">	Carroll (Кэрролл)	</div>
-		<div class="block">	Charles (Чарльз)	</div>
-		<div class="block">	Carter (Картер)	</div>
-		<div class="block">	Chandler (Чандлер)	</div>
-		<div class="block">	Chapman (Чепмен)	</div>
-		<div class="block">	Charlson (Чарлсон)	</div>
-		<div class="block">	Chesterton (Честертон)	</div>
-		<div class="block">	Clapton (Клэптон)	</div>
-		<div class="block">	Clarkson (Кларксон)	</div>
-		<div class="block">	Cleland (Клиленд)	</div>
-		<div class="block">	Clifford (Клиффорд)	</div>
-		<div class="block">	Cloud (Клауд)	</div>
-		<div class="block">	Clowes, Close (Клоуз)	</div>
-		<div class="block">	Coats (Коутс)	</div>
-		<div class="block">	Cockerill (Кокрил, Кокерилл)	</div>
-		<div class="block">	Coleman (Коулман)	</div>
-		<div class="block">	Collingwood (Кооллингвуд)	</div>
-		<div class="block">	Connors (Коннорс)	</div>
-		<div class="block">	Conchobar	</div>
-		<div class="block">	Cook (Кук)	</div>
-		<div class="block">	Copeland , Coupland , Cowpland (Коупленд, Коуплэнд)	</div>
-		<div class="block">	Copland (Копленд)	</div>
-		<div class="block">	Cosgrove (Косгроув)	</div>
-		<div class="block">	Cowell (Коуэлл)	</div>
-		<div class="block">	Cramer (Кремер/ Крамер)	</div>
-		<div class="block">	Creighton (Крайтон)	</div>
-		<div class="block">	Crockett (Крокетт)	</div>
-		<div class="block">	Croftoon (Крофтон)	</div>
-		<div class="block">	Crosby, Crosbie (Кросби)	</div>
-		<div class="block">	Crosman (Кросман)	</div>
-		<div class="block">	Culver (Калвер)	</div>
-		<div class="block">	Cushing (Кушинг)	</div>
-		<div class="block blok_sticky">	D	</div>
-		<div class="block">	Daniels (Дэниэлс)	</div>
-		<div class="block">	Danson (Дансон, Дэнсон)	</div>
-		<div class="block">	Davidson (Дэвидсон)	</div>
-		<div class="block">	Davis (Дэвис)	</div>
-		<div class="block">	Day (Дей)	</div>
-		<div class="block">	Dean (Дин)	</div>
-		<div class="block">	Derrick (Деррик)	</div>
-		<div class="block">	Dickinson (Дикинсон)	</div>
-		<div class="block">	Dodson (Додсон)	</div>
-		<div class="block">	Dodwell (Додвелл, Додуэлл)	</div>
-		<div class="block">	Donaldson (Дональдсон)	</div>
-		<div class="block">	Donovan (Донован)	</div>
-		<div class="block">	Doubleday (Даблдэй, Даблдей)	</div>
-		<div class="block">	Douglas (Дуглас)	</div>
-		<div class="block">	Dowman (Дауман)	</div>
-		<div class="block">	Downing (Даунинг)	</div>
-		<div class="block">	Dutton (Даттон)	</div>
-		<div class="block">	Duncan (Дункан)	</div>
-		<div class="block">	Dunce (Данс)	</div>
-		<div class="block">	Durham (Дарем)	</div>
-		<div class="block">	Dyson (Дайсон)	</div>
-		<div class="block blok_sticky">	E	</div>
-		<div class="block">	Eddington (Эддингтон)	</div>
-		<div class="block">	Edwards (Эдвардс, Эдуардз)	</div>
-		<div class="block">	Ellington (Эллингтон)	</div>
-		<div class="block">	Elmers (Элмерз)	</div>
-		<div class="block">	Enderson (Эндерсон)	</div>
-		<div class="block">	Ericsson (Эриксон)	</div>
-		<div class="block">	Evans (Эванс)	</div>
-		<div class="block blok_sticky">	F	</div>
-		<div class="block">	Faber (Фабер)	</div>
-		<div class="block">	Fane (Фейн)	</div>
-		<div class="block">	Farmer (Фармер)	</div>
-		<div class="block">	Farrell (Фаррелл)	</div>
-		<div class="block">	Ferguson (Фергусон, Фергюсон)	</div>
-		<div class="block">	Finch (Финч)	</div>
-		<div class="block">	Fisher (Фишер)	</div>
-		<div class="block">	Fitzgerald (Фицджеральд)	</div>
-		<div class="block">	Flanagan (Флэнаган)	</div>
-		<div class="block">	Fletcher (Флетчер)	</div>
-		<div class="block">	Fleming, Flemming (Флеминг)	</div>
-		<div class="block">	Ford (Форд)	</div>
-		<div class="block">	Forman (Форман)	</div>
-		<div class="block">	Forester (Форестер)	</div>
-		<div class="block">	Foster (Фостер)	</div>
-		<div class="block">	Fox (Фокс)	</div>
-		<div class="block">	Francis (Франсис)	</div>
-		<div class="block">	Fraser (Фрейзер)	</div>
-		<div class="block">	Freeman (Фриман)	</div>
-		<div class="block">	Fulton (Фултон)	</div>
-		<div class="block blok_sticky">	G	</div>
-		<div class="block">	Galbraith (Галбрейт)	</div>
-		<div class="block">	Gardner (Гарднер)	</div>
-		<div class="block">	Garrison (Гаррисон)	</div>
-		<div class="block">	Gates (Гейтс)	</div>
-		<div class="block">	Gerald (Джеральд)	</div>
-		<div class="block">	Gibbs (Гиббc)	</div>
-		<div class="block">	Gilbert (Гилберт)	</div>
-		<div class="block">	Gill (Гилл)	</div>
-		<div class="block">	Gilmore (Гилмор)	</div>
-		<div class="block">	Gilson (Джилсон, Гилсон)	</div>
-		<div class="block">	Gimson (Гимсон, Джимсон)	</div>
-		<div class="block">	Goldman (Голдман)	</div>
-		<div class="block">	Goodman (Гудман)	</div>
-		<div class="block">	Gordon (Гордон)	</div>
-		<div class="block">	Granger (Грейнджер)	</div>
-		<div class="block">	Graves (Грейвз, Грейвс)	</div>
-		<div class="block">	Green (Грин)	</div>
-		<div class="block">	Griffin (Гриффин)	</div>
-		<div class="block">	Gustman (Гастман)	</div>
-		<div class="block">	Guthrie (Гатри)	</div>
-		<div class="block blok_sticky">	H	</div>
-		<div class="block">	Haig (Хейг)	</div>
-		<div class="block">	Hailey (Хейли)	</div>
-		<div class="block">	Humphrey (Хамфри)	</div>
-		<div class="block">	Hancock (Хэнкок)	</div>
-		<div class="block">	Hardman (Хардман)	</div>
-		<div class="block">	Harrison (Харрисон)	</div>
-		<div class="block">	Hawkins (Хокинс)	</div>
-		<div class="block">	Higgins (Хиггинс)	</div>
-		<div class="block">	Hodges (Ходжез)	</div>
-		<div class="block">	Hoggarth, Hogarth (Хогарт)	</div>
-		<div class="block">	Holiday (Холидей)	</div>
-		<div class="block">	Holmes (Холмс)	</div>
-		<div class="block">	Howard (Ховард, Хауард)	</div>
-		<div class="block blok_sticky">	J	</div>
-		<div class="block">	Jacobson (Джейкобсон)	</div>
-		<div class="block">	Jackson (Джексон)	</div>
-		<div class="block">	James (Джеймс)	</div>
-		<div class="block">	Jeff (Джефф)	</div>
-		<div class="block">	Jenkins (Дженкинс)	</div>
-		<div class="block">	Jerome (Джером)	</div>
-		<div class="block">	Johnson (Джонсон)	</div>
-		<div class="block">	Jones (Джонс)	</div>
-		<div class="block blok_sticky">	K	</div>
-		<div class="block">	Keat (Кит)	</div>
-		<div class="block">	Kelly (Келли)	</div>
-		<div class="block">	Kendal (Кендал)	</div>
-		<div class="block">	Kennedy (Кеннеди)	</div>
-		<div class="block">	Kennett (Кеннет)	</div>
-		<div class="block">	Kingsman (Кингзман)	</div>
-		<div class="block">	Kirk (Кирк)	</div>
-		<div class="block blok_sticky">	L	</div>
-		<div class="block">	Laird (Лэрд)	</div>
-		<div class="block">	Lamberts (Ламбертc)	</div>
-		<div class="block">	Lampkin (Лэмпкин, Лампкин)	</div>
-		<div class="block">	Larkins (Ларкинс)	</div>
-		<div class="block">	Lawman (Ломан, Лоумэн)	</div>
-		<div class="block">	Lipman (Липман)	</div>
-		<div class="block">	Leman (Леман)	</div>
-		<div class="block">	Lewin (Левин)	</div>
-		<div class="block">	Little (Литтл)	</div>
-		<div class="block">	Livingston (Ливингстон)	</div>
-		<div class="block">	Longman (Лонгман)	</div>
-		<div class="block blok_sticky">	M	</div>
-		<div class="block">	MacAdam (Макадам)	</div>
-		<div class="block">	MacAlister (Макалистер)	</div>
-		<div class="block">	MacDonald (Макдональд)	</div>
-		<div class="block">	Macduff (Макдафф)	</div>
-		<div class="block">	Macey (Мейси)	</div>
-		<div class="block">	Mackenzie (МакКензи)	</div>
-		<div class="block">	Mansfield (Мэнсфилд)	</div>
-		<div class="block">	Marlow (Марлоу)	</div>
-		<div class="block">	Marshman (Маршман)	</div>
-		<div class="block">	Mason (Мейсон)	</div>
-		<div class="block">	Matthews (Мэтьюз)	</div>
-		<div class="block">	Mercer (Мерсер)	</div>
-		<div class="block">	Michaelson (Майклсон, Михельсон)	</div>
-		<div class="block">	Myers (Майерс)	</div>
-		<div class="block">	Miller (Миллер)	</div>
-		<div class="block">	Miln (Милн)	</div>
-		<div class="block">	Milton (Милтон)	</div>
-		<div class="block">	Mulligan (Маллиган)	</div>
-		<div class="block">	Moore (Мур)	</div>
-		<div class="block">	Morrison (Моррисон)	</div>
-		<div class="block">	Murphy (Мерфи)	</div>
-		<div class="block blok_sticky">	N	</div>
-		<div class="block">	Nash (Нэш)	</div>
-		<div class="block">	Nathan (Нейтан, Натан)	</div>
-		<div class="block">	Neal (Нил)	</div>
-		<div class="block">	Nelson (Нельсон)	</div>
-		<div class="block">	Neville (Невилл)	</div>
-		<div class="block">	Nicholson (Николсон)	</div>
-		<div class="block">	Nyman (Найман)	</div>
-		<div class="block blok_sticky">	O	</div>
-		<div class="block">	Oakman (Оукман)	</div>
-		<div class="block">	Ogden (Огден)	</div>
-		<div class="block">	Oldman (Олдман)	</div>
-		<div class="block">	Oliver (Оливер)	</div>
-		<div class="block">	Osborne (Оcборн)	</div>
-		<div class="block">	Oswald (Освальд)	</div>
-		<div class="block">	Otis (Отис)	</div>
-		<div class="block">	Owen (Оуэн)	</div>
-		<div class="block blok_sticky">	P	</div>
-		<div class="block">	Packer (Пакер)	</div>
-		<div class="block">	Paige (Пейдж)	</div>
-		<div class="block">	Palmer (Палмер)	</div>
-		<div class="block">	Parkinson (Паркинсон)	</div>
-		<div class="block">	Parson (Парсон)	</div>
-		<div class="block">	Pass (Пасс)	</div>
-		<div class="block">	Paterson (Патерсон)	</div>
-		<div class="block">	Peacock (Пикок)	</div>
-		<div class="block">	Pearcy (Пирси)	</div>
-		<div class="block">	Peterson (Петерсон)	</div>
-		<div class="block">	Philips (Филипс)	</div>
-		<div class="block">	Porter (Портер)	</div>
-		<div class="block blok_sticky">	Q	</div>
-		<div class="block">	Quincy (Куинси)	</div>
-		<div class="block blok_sticky">	R	</div>
-		<div class="block">	Raleigh (Роли)	</div>
-		<div class="block">	Ralphs (Paлфc, Ральф)	</div>
-		<div class="block">	Ramacey (Рамзи)	</div>
-		<div class="block">	Reynolds (Рейнольдс)	</div>
-		<div class="block">	Richards (Ричардс)	</div>
-		<div class="block">	Roberts (Робертс)	</div>
-		<div class="block">	Roger (Роджер)	</div>
-		<div class="block">	Rose (Роуз)	</div>
-		<div class="block">	Russell (Рассел)	</div>
-		<div class="block">	Ryder (Райдер)	</div>
-		<div class="block blok_sticky">	S	</div>
-		<div class="block">	Salisbury (Солсбери)	</div>
-		<div class="block">	Salomon (Саломон)	</div>
-		<div class="block">	Samuels (Самьюэлз, Сэмюэлс)	</div>
-		<div class="block">	Saunders(Сандерс)	</div>
-		<div class="block">	Sax, Saxe (Сакс)	</div>
-		<div class="block">	Sheckley (Шекли)	</div>
-		<div class="block">	Sheldon (Шелдон)	</div>
-		<div class="block">	Sherlock (Шерлок)	</div>
-		<div class="block">	Shorter (Шортер)	</div>
-		<div class="block">	Simon (Саймон)	</div>
-		<div class="block">	Simpson (Симпсон)	</div>
-		<div class="block">	Smith (Смит)	</div>
-		<div class="block">	Sprake (Спрейк)	</div>
-		<div class="block">	Stanley (Стэнли, Стенли)	</div>
-		<div class="block">	Stephen (Стивен)	</div>
-		<div class="block">	Stevenson (Стивенсон)	</div>
-		<div class="block">	Sykes (Сайкс)	</div>
-		<div class="block blok_sticky">	T	</div>
-		<div class="block">	Taft (Тафт)	</div>
-		<div class="block">	Taylor (Тейлор)	</div>
-		<div class="block">	Thomas (Томас)	</div>
-		<div class="block">	Thomson (Томсон)	</div>
-		<div class="block">	Thorndike (Торндайк)	</div>
-		<div class="block">	Thornton (Торнтон)	</div>
-		<div class="block">	Timmons, Timmins (Тиммонз, Тимминс)	</div>
-		<div class="block">	Tracy (Трейси)	</div>
-		<div class="block">	Turner (Тернер)	</div>
-		<div class="block blok_sticky">	V	</div>
-		<div class="block">	Vance (Вэнс)	</div>
-		<div class="block">	Vaughan (Воан)	</div>
-		<div class="block blok_sticky">	W	</div>
-		<div class="block">	Wainwright (Уэйнрайт)	</div>
-		<div class="block">	Walkman (Уокмэн)	</div>
-		<div class="block">	Wallace (Уоллес)	</div>
-		<div class="block">	Waller (Уоллер)	</div>
-		<div class="block">	Walter (Уолтер, Вальтер, Уолтерс)	</div>
-		<div class="block">	Ward (Уорд)	</div>
-		<div class="block">	Warren (Уоррен, Варен)	</div>
-		<div class="block">	Watson (Ватсон, Уотсон)	</div>
-		<div class="block">	Wayne (Уэйн)	</div>
-		<div class="block">	Webster (Уэбстер, Вебстер)	</div>
-		<div class="block">	Wesley (Уэсли)	</div>
-		<div class="block">	White (Уайт)	</div>
-		<div class="block">	Wilkinson (Уилкинсон)	</div>
-		<div class="block">	Williams (Вильям, Уильямс)	</div>
-		<div class="block">	Wilson (Вилсон, Уилсон)	</div>
-		<div class="block">	Winter (Винтер)	</div>
-	</div>
-	<footer></footer>
-
+</div>
+<script src="script.js"></script>
+</body>
 </html>

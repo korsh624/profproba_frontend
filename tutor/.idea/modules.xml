@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/05_Forms_Style_Media.iml" filepath="$PROJECT_DIR$/.idea/05_Forms_Style_Media.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tutor.iml" filepath="$PROJECT_DIR$/.idea/tutor.iml" />
     </modules>
   </component>
 </project>

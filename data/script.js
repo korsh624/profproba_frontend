@@ -36,12 +36,15 @@ bubutton.addEventListener('click', (event) => {
         }
     else{
         erorpost.style.display='none';
+        bubutton.style.background="rgb(1, 6, 97)";
     }
     if (passwd===''){
         erorpas.style.display='block';
         pass.style.border='1px solid red';
+        bubutton.style.background="red";
         }
         else{
             erorpas.style.display='none';
+            bubutton.style.background="rgb(1, 6, 97)";
         }
     });

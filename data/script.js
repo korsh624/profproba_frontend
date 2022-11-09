@@ -16,6 +16,10 @@ const pass =document.querySelector('[name=pass]');
         passwd=event.target.value;
         console.log(passwd);
     });
+const erorpas=document.querySelector('.error_email_pass');
+const erorpost=document.querySelector('.error_email_message');
+erorpost.style.display='none';
+erorpas.style.display='none';
 
 const bubutton = document.querySelector('.button');
 bubutton.addEventListener('click', (event) => {
@@ -24,11 +28,20 @@ bubutton.addEventListener('click', (event) => {
     event.preventDefault();
     //Проверяем почту на пустоту
     if (post===''){
+        
         email.style.border='1px solid red';
-        bubutton.style.background="red"
+        bubutton.style.background="red";
+        erorpost.style.display='block';
 
         }
-    if (post===''){
+    else{
+        erorpost.style.display='none';
+    }
+    if (passwd===''){
+        erorpas.style.display='block';
         pass.style.border='1px solid red';
+        }
+        else{
+            erorpas.style.display='none';
         }
     });

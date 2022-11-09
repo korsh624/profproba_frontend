@@ -30,6 +30,26 @@
     width: 300px;
 
 }
+.error_email_message{
+    display: none;
+    position: absolute;
+    left: 300px;
+    top:95px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.error_email_pass{
+    display: none;
+    position: absolute;
+    left: 300px;
+    top:135px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
 .input_pass{
     position: absolute;
     left: 160px;
